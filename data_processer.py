@@ -5,21 +5,6 @@ Date: 04-03-2021
 '''
 
 import sys
-
-#def process(data, idioms):
-#    idiom_counter = 0
-#    non_idiom_counter = 0
-#    for tweet in data:
-#        chkpnt = 0
-#        for idiom in idioms:
-#            if idiom in tweet:
-#                idiom_counter += 1
-#                chkpnt = 1
-#        if chkpnt == 0:
-#            non_idiom_counter += 1
-#    return idiom_counter, non_idiom_counter
-
-
 	
 def main(argv):
     if len(argv) != 3:
